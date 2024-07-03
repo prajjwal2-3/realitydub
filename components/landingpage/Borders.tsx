@@ -28,10 +28,10 @@ export default function Borders() {
     const arr = [1,2,3,4]
 
     return (
-        <div className='bg-[#EBF4FC] py-24 px-48 gap-12 flex flex-col  justify-center items-center'>
+        <div className='bg-[#EBF4FC] md:py-24 py-10 md:px-48 px-7 gap-12 flex flex-col text-center justify-center items-center'>
             <section className='text-4xl font-semibold'>Go beyond borders</section>
-            <section className='flex justify-between 3xl:w-10/12'>
-                <section className='w-6/12 flex gap-5 flex-col'>
+            <section className='flex flex-col md:flex-row justify-between 3xl:w-10/12'>
+                <section className='md:w-6/12 flex gap-5 flex-col'>
                     <p>FEATURE</p>
                     <p className='text-3xl font-semibold'>Make your content available in many languages</p>
                     <p className='font-medium '>Our AI-powered dubbing tool allows for seamless conversion of your videos into numerous languages, ensuring broad accessibility and viewer engagement across the globe.</p>
@@ -44,7 +44,7 @@ export default function Borders() {
                         ))}
                     </section>
                 </section>
-                <section className='w-5/12'>
+                <section className='md:w-5/12'>
                     <div className="rounded-3xl border-8 w-full h-full bg-white p-5 flex flex-wrap border-[#E4EFF8]">
                         
                             <Image  src={image} alt='' className='w-full h-full object-cover' />
@@ -52,8 +52,8 @@ export default function Borders() {
                     </div>
                 </section>
             </section>
-            <section className='flex justify-between 3xl:w-10/12'>
-                <section className='w-6/12 flex gap-5 flex-col'>
+            <section className='flex flex-col md:flex-row justify-between 3xl:w-10/12'>
+                <section className='md:w-6/12 flex gap-5 flex-col'>
                     <p>FEATURE</p>
                     <p className='text-3xl font-semibold'>Speed up your rollout with our rapid processing capabilities</p>
                     <p className='font-medium '>By minimizing delays, your videos are ready to capture interest and engage viewers anywhere in the world almost as soon as you are ready to publish them.</p>
@@ -66,7 +66,7 @@ export default function Borders() {
                         ))}
                     </section>
                 </section>
-                <section className='w-5/12'>
+                <section className='md:w-5/12'>
                     <div className="rounded-3xl border-8 w-full h-full bg-white p-5 flex flex-wrap border-[#E4EFF8]">
                         
                             <Image src={success}  alt='' className='w-full h-full object-cover' />
